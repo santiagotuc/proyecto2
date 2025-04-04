@@ -1,0 +1,19 @@
+.footer {
+  background-color: #444;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-logos {
+  margin-top: 10px;
+}
+
+.social-logos a {
+  margin: 0 10px;
+}
+
+.social-logos img {
+  height: 30px; /* Ajusta el tamaño de los logos */
+  vertical-align: middle;
+}

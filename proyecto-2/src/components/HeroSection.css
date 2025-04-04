@@ -1,0 +1,41 @@
+.hero-section {
+  position: relative; /* Para posicionar el contenido sobre la imagen */
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.hero-image-container {
+  width: 100%;
+  overflow: hidden; /* Para asegurar que la imagen no se desborde */
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+  height: auto; /* Mantiene la proporción */
+  object-fit: cover; /* Cubre el contenedor manteniendo la proporción */
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Fondo semitransparente para el texto */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.hero-content h1 {
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+}
